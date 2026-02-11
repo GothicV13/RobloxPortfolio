@@ -1,0 +1,89 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Inter', sans-serif;
+}
+
+body {
+  background: #070707;
+  color: #e5e5e5;
+  min-height: 100vh;
+  overflow-x: hidden;
+}
+
+.bg {
+  position: fixed;
+  inset: 0;
+  background:
+    radial-gradient(circle at top, rgba(90,0,120,0.15), transparent 60%),
+    linear-gradient(180deg, #050505, #0b0014);
+  z-index: -1;
+}
+
+.container {
+  max-width: 900px;
+  margin: auto;
+  padding: 60px 20px;
+}
+
+.header {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.header h1 {
+  font-family: 'UnifrakturCook', cursive;
+  font-size: 4rem;
+  color: #b300ff;
+  text-shadow: 0 0 20px rgba(179, 0, 255, 0.5);
+}
+
+.tagline {
+  opacity: 0.8;
+  margin-top: 8px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  font-size: 0.9rem;
+}
+
+.card {
+  background: rgba(20, 10, 30, 0.6);
+  border: 1px solid rgba(179, 0, 255, 0.25);
+  border-radius: 12px;
+  padding: 25px;
+  margin-bottom: 25px;
+  box-shadow: 0 0 25px rgba(179, 0, 255, 0.08);
+  backdrop-filter: blur(6px);
+}
+
+.card h2 {
+  color: #d48cff;
+  margin-bottom: 12px;
+}
+
+.list {
+  list-style: none;
+}
+
+.list li {
+  margin: 8px 0;
+  opacity: 0.9;
+}
+
+.contact a {
+  color: #b300ff;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.contact a:hover {
+  text-shadow: 0 0 10px rgba(179, 0, 255, 0.7);
+}
+
+.footer {
+  text-align: center;
+  margin-top: 60px;
+  opacity: 0.4;
+  font-size: 0.8rem;
+}
